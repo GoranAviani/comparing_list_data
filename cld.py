@@ -1,20 +1,21 @@
 def main():
 
-    theirOrderIDs = [1,2,3]
-    ourOrderIDs = [1,2,3,4]
+    theirCustIDs = []
+
+    ourCustIDs = [1,2,3,4]
 
     theirSubsIDs = []
     ourSubsIDs = []
 
 
-    for x in ourOrderIDs:
-        if x not in theirOrderIDs:
-            print("Order {} is not in their list" .format(x))
+    for x in ourCustIDs:
+        if x not in theirCustIDs:
+            print("Customer {} is not in their list" .format(x))
     print("------------------------------------------------------------------")
 
-    for x in theirOrderIDs:
-        if x not in ourOrderIDs:
-            print("Order {} is not in our list".format(x))
+    for x in theirCustIDs:
+        if x not in ourCustIDs:
+            print("Customer {} is not in our list".format(x))
     print("------------------------------------------------------------------")
 
 
