@@ -14,7 +14,7 @@ def main():
 
     for x in theirOrderIDs:
         if x not in ourOrderIDs:
-            print("Order {} is not in their list".format(x))
+            print("Order {} is not in our list".format(x))
     print("------------------------------------------------------------------")
 
 
