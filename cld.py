@@ -5,21 +5,21 @@ def checkCustomDiff():
     for x in userList1:
         if x not in userList2:
             print("{} is not in second list".format(x))
-    print("------------------------------------------------------------------")
+    print("----------------------------------------------------------\n")
 
     for x in userList2:
         if x not in userList1:
             print("{} is not in first list".format(x))
-    print("------------------------------------------------------------------")
+    print("----------------------------------------------------------\n")
 
 
 def mainMenu():
     while True:
-        userInput = input("What do you want to do:\n"
+        userInput = input("\n\nWhat do you want to do:\n"
               "1 Import 2 lists and check their differences? or \n"
               "2 Check differences between lists from the cld file?\n"
               "----------------------------------------------------------\n"
-              "Press X to Exit")
+              "Press X to Exit\n")
         # On exit show current stock and break
         if userInput.upper() == "X":
             print("Good bye !")
