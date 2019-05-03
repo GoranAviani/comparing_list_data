@@ -8,7 +8,7 @@ def mainMenu():
               "Press X to Exit")
 
         # On exit show current stock and break
-        if userInput == "X":
+        if userInput.upper() == "X":
 
             print("Good bye !")
             break
