@@ -2,13 +2,13 @@ def checkCustomDiff():
     userList1 = input("Please enter a list with (,) between words or numbers and press enter to enter second list: \n")
     userList2 = input("Please enter a list with (,) between words or numbers and press enter: \n")
 
-    for x in userList1:
-        if x not in userList2:
+    for x in userList1.split(","):
+        if x not in userList2.split(","):
             print("{} is not in second list".format(x))
     print("----------------------------------------------------------\n")
 
-    for x in userList2:
-        if x not in userList1:
+    for x in userList2.split(","):
+        if x not in userList1.split(","):
             print("{} is not in first list".format(x))
     print("----------------------------------------------------------\n")
 
