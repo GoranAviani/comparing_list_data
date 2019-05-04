@@ -1,3 +1,6 @@
+def checkFileDiff():
+    pass
+
 def checkCustomDiff():
     userList1 = input("Please enter a list with (,) between words or numbers and press enter to enter second list: \n")
     userList2 = input("Please enter a list with (,) between words or numbers and press enter: \n")
@@ -26,6 +29,10 @@ def mainMenu():
             break
         elif userInput == '1':
             checkCustomDiff()
+        elif userInput == '2':
+            checkFileDiff()
+        else:
+            print("Unknown command, please try again.")
 def main():
 
     mainMenu()
