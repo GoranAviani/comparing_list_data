@@ -1,4 +1,12 @@
+def loadFromFile():
+    with open('compare_lists.save', 'r') as file:
+        data = json.load(file)
+
+    file.close()
+    return data
+
 def checkFileDiff():
+    lists = loadFromFile()
     pass
 
 def checkCustomDiff():
