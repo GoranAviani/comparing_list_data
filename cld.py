@@ -1,13 +1,28 @@
+import json
+
 def loadFromFile():
     with open('compare_lists.save', 'r') as file:
         data = json.load(file)
-
     file.close()
     return data
 
 def checkFileDiff():
     lists = loadFromFile()
-    pass
+    userList1 = lists[0]
+    userList2 = lists[1]
+
+    for x in userList1:
+        if x not in userList2:
+            print("{} is not in second list".format(x))
+    print("----------------------------------------------------------\n")
+
+    for x in userList2:
+        if x not in userList1:
+            print("{} is not in first list".format(x))
+    print("----------------------------------------------------------\n")
+
+
+
 
 def checkCustomDiff():
     userList1 = input("Please enter a list with (,) between words or numbers and press enter to enter second list: \n")
