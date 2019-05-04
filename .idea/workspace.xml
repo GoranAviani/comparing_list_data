@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cld.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="171">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -195,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556992397140</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="comparing lists from the file">
+      <created>1556993945693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556993945693</updated>
+    </task>
+    <task id="LOCAL-00010" summary="simpler code">
+      <created>1556994581514</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556994581514</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -229,7 +243,9 @@
     <MESSAGE value="check file diff" />
     <MESSAGE value="removed hard coded list difference checks" />
     <MESSAGE value="loading from custom file" />
-    <option name="LAST_COMMIT_MESSAGE" value="loading from custom file" />
+    <MESSAGE value="comparing lists from the file" />
+    <MESSAGE value="simpler code" />
+    <option name="LAST_COMMIT_MESSAGE" value="simpler code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/compare_lists.save">
@@ -241,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cld.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
